@@ -19,3 +19,14 @@ A bank API wouldn't give the ATM the PIN number, but it can tell you if the PIN 
 Based on your work, another engineer should be able to implement the user interface. You don't need to implement any REST API, RPC, network communication etc, but just functions/classes/methods, etc.
 
 You can simplify some complex real world problems if you think it's not worth illustrating in the project.
+
+## 2. Overall specification
+
+### 2.1. ATM machine states
+
+The ATM machine has two states as below(briefly):
+
+- `Ready`: The machine is waiting for the user's card insertion
+
+- `Running`: The machine is processing necessary operations(i.e. not in `Ready` state)
+
