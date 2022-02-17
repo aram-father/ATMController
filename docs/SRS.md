@@ -22,11 +22,7 @@ You can simplify some complex real world problems if you think it's not worth il
 
 ## 2. Overall specification
 
-### 2.1. ATM machine states
+### 2.1. ATM machine states & transitions
 
-The ATM machine has two states as below(briefly):
-
-- `Ready`: The machine is waiting for the user's card insertion
-
-- `Running`: The machine is processing necessary operations(i.e. not in `Ready` state)
+![overall_description](./overall_description.drawio.png)
 
